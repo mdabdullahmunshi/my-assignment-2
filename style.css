@@ -1,0 +1,388 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Work Sans', sans-serif;
+
+}
+
+/* header style */
+header {
+    background: #ff900e1a;
+    padding: 0 100px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0px;
+}
+
+.logo {
+    font-weight: 700;
+    font-size: 32px;
+    color: #131313;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu li {
+    list-style: none;
+    margin-left: 30px;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: #424242;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.banner {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner-title {
+    font-weight: 700;
+    font-size: 48px;
+}
+
+.banner-details {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    margin: 32px 0;
+    color: #727272;
+}
+
+.banner button {
+    cursor: pointer;
+    width: 180px;
+    height: 64px;
+    color: #ffff;
+    background: #FF900E;
+    border: none;
+    border-radius: 8px;
+    margin-bottom: 50px;
+}
+
+.banner img {
+    width: 100%;
+    height: 600px;
+    border-radius: 8px;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+/* quick-list style */
+
+.quick-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 50px 70px 120px;
+}
+
+.container {
+    height: 500px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+}
+
+.quick-list-box {
+    width: 100%;
+    height: 245px;
+}
+
+.quick-list-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.quick-list-details {
+    width: 50%;
+    height: 500px;
+    padding: 0 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.quick-list-title {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 38px;
+    color: #727272;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.black {
+    color: #131313;
+    font-weight: 700;
+}
+
+.orange {
+    color: #FF900E;
+    font-weight: 700;
+}
+
+.quick-list-text {
+    font-size: 14px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: #727272;
+}
+
+.quick-list-btn {
+    cursor: pointer;
+    width: 180px;
+    height: 64px;
+    color: #ffff;
+    background: #FF900E;
+    border: none;
+    border-radius: 8px;
+}
+
+/* features style */
+
+.features {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 100px;
+}
+
+.feature-details {
+    width: 40%;
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.feature-title {
+    width: 100%;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 42px;
+}
+
+.feature-text {
+    width: 100%;
+    font-size: 14px;
+    color: #727272;
+}
+
+.feature-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.content-box {
+    width: 100%;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0px -2px 5px #888888;
+}
+
+.content-box span {
+    display: block;
+    font-weight: 600;
+    font-size: 18px;
+    color: #131313;
+    padding-bottom: 7px;
+}
+
+.content-box p {
+    font-size: 14px;
+    color: #727272;
+}
+
+.feature-img {
+    position: relative;
+    width: 50%;
+    height: 650px;
+}
+
+.feature-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.feature-img button {
+    position: absolute;
+    bottom: -33px;
+    left: -68px;
+    width: 200px;
+    height: 90px;
+    color: #ffff;
+    background: #FF900E;
+    border: none;
+    border-radius: 8px;
+}
+
+.feature-img button span {
+    font-size: 28px;
+    font-weight: 600;
+}
+
+
+/* my-work style */
+
+.my-work {
+    padding: 120px 100px;
+}
+
+.my-work-title {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 42px;
+}
+
+.my-work-details {
+    font-size: 14px;
+    line-height: 20px;
+    margin: 10px 0;
+    color: #727272;
+}
+
+.work-container {
+    display: flex;
+    padding-left: 50px;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+.work-box {
+    width: 160px;
+    height: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    transition: .3s;
+}
+.work-box:hover{
+    border: 2px solid #0e6eff;
+}
+
+.number {
+    font-size: 30px;
+    font-weight: 700;
+    margin: 10px 0;
+    color: #424242;
+}
+
+.title {
+    font-size: 14px;
+    font-weight: 700;
+    color: #727272;
+}
+
+/* sponsors style */
+.sponsors{
+    padding: 0px 100px;
+    text-align: center;
+}
+.sponsor-title {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 42px;
+}
+
+.sponsor-details {
+    font-size: 14px;
+    line-height: 20px;
+    margin: 10px 0;
+    color: #727272;
+}
+.all-sponsor{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 50px 0px;
+}
+.all-sponsor img{
+    opacity: .5;
+}
+
+/* footer style */
+
+footer{
+    background-color: #ff900e1a;
+    padding: 25px;
+    text-align: center;
+    margin: 0 100px;
+    border-radius: 8px;
+}
+footer span{
+    font-size: 14px;
+    color: #424242;
+} 
+
+
+/* responsive style start */
+
+@media screen and (max-width: 576px) {
+    nav{
+        flex-direction: column;
+    }
+    .logo{
+        margin-bottom: 15px;
+    }
+    .quick-list{
+        flex-direction: column;
+    }
+    .container{
+        height: auto;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .features{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .feature-details{
+        height: auto;
+        margin-bottom: 30px;
+    }
+    .feature-text{
+        margin: 15px 0;
+    }
+    .work-container {  
+        flex-wrap: wrap;
+        padding-left: 0px;
+    }
+    .work-box{
+        width: 45%;
+        margin-bottom: 25px;
+    }
+    .all-sponsor{
+        flex-direction: column;
+        gap: 30px;
+    }
+}
