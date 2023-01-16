@@ -445,6 +445,9 @@ footer span{
     .feature-text{
         margin: 15px 0;
     }
+    .testimonial{
+        padding: 10px auto;
+    }
     .testimonial-container{
         flex-direction: column;
         justify-content: center;
