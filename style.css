@@ -77,6 +77,10 @@ nav {
     border: none;
     border-radius: 8px;
     margin-bottom: 50px;
+    transition: .3s;
+}
+.banner button:hover{
+    background: #0e6eff;
 }
 
 .banner img {
@@ -158,6 +162,10 @@ nav {
     background: #FF900E;
     border: none;
     border-radius: 8px;
+    transition: .3s;
+}
+.quick-list-btn:hover{
+    background: #0e6eff;
 }
 
 /* features style */
